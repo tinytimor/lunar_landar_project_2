@@ -146,7 +146,7 @@ class DDPGAgent:
         self.seed = random.seed(random_seed)
         self.action_low = action_low
         self.action_high = action_high
-
+        self.gamma = GAMMA 
         # Actor Network (local and target)
         self.actor_local = Actor(state_size, action_size, random_seed).to(device)
         self.actor_target = Actor(state_size, action_size, random_seed).to(device)
@@ -376,8 +376,8 @@ def main():
     # # Train the agent
     # print("Starting Training...")
     # scores, avg_scores, total_time = train_ddpg(env, agent)
-    # env.close()
-    # print("Training Completed.")
+    env.close()
+    print("Training Completed.")
 
     actor_path = 'ddpg/experiment1_ddpg_actor.pth'
     critic_path = 'ddpg/experiment1_ddpg_critic_final.pth'

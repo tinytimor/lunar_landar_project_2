@@ -15,7 +15,7 @@ Ensure you have Python and `pip` installed on your system. You can download Pyth
    Open your terminal and run the following command to clone the repository:
 
    ```bash
-   git clone https://github.gatech.edu/gt-omscs-rldm/7642RLDMFall2024slehman7.git
+   git clone https://github.com/tinytimor/lunar_landar_project_2.git
    ```
 
 2. **Navigate to the project directory:**
@@ -23,7 +23,7 @@ Ensure you have Python and `pip` installed on your system. You can download Pyth
    Change into the project directory:
 
    ```bash
-   cd project_2
+   cd lunar_landar_project_2
    ```
 
 3. **Install the required packages:**
@@ -91,6 +91,19 @@ To test different hyperparameters, use the `ddgp_agent_hyperparameters.py` scrip
 - **Experiment Results:**
 
   Hyperparameter experiment results, including plots and CSV files, are saved in the `ddpg_experiments` directory. Each experiment is stored in a separate subdirectory.
+
+### Model Performance Videos
+
+#### Initial Training
+During the initial training phase, the agent learns to control the lunar lander through trial and error. Watch as the agent progressively improves its landing strategy:
+
+https://github.com/tinytimor/lunar_landar_project_2/raw/main/initial_training_of_ddpg.mp4
+
+#### Trained Model Evaluation
+After training, the agent consistently achieves scores above the target threshold of 250 points per episode, demonstrating successful mastery of the landing task:
+
+https://github.com/tinytimor/lunar_landar_project_2/raw/main/evaluation_of_ddgp.mp4
+
 
 ### Differences Between Scripts
 
