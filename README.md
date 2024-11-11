@@ -7,12 +7,12 @@ This project implements a Deep Deterministic Policy Gradient (DDPG) agent to sol
 #### Initial Training
 During the initial training phase, the agent learns to control the lunar lander through trial and error. Watch as the agent progressively improves its landing strategy:
 
-https://github.com/tinytimor/lunar_landar_project_2/raw/main/initial_training_of_ddpg.mp4
+[![Training Video](initial_training_of_ddpg.png)](https://github.com/tinytimor/lunar_landar_project_2/raw/main/initial_training_of_ddpg.mp4)
 
 #### Trained Model Evaluation
 After training, the agent consistently achieves scores above the target threshold of 250 points per episode, demonstrating successful mastery of the landing task:
 
-https://github.com/tinytimor/lunar_landar_project_2/raw/main/evaluation_of_ddgp.mp4
+[![Training Video](evaluation_of_ddgp.png)](https://github.com/tinytimor/lunar_landar_project_2/raw/main/evaluation_of_ddgp.mp4)
 
 
 ## Getting Started
