@@ -1,4 +1,0 @@
-numpy>=1.26.0
-scipy>=1.11.2
-gymnasium>=0.29.1
-pygame>=2.5.2
